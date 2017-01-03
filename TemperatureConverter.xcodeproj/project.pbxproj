@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		593C83781DA34198009B5F04 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C83771DA34198009B5F04 /* main.swift */; };
+		593C837F1DA341D1009B5F04 /* ConverterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C837E1DA341D1009B5F04 /* ConverterType.swift */; };
+		593C83811DA34225009B5F04 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C83801DA34225009B5F04 /* Converter.swift */; };
+		593C83841DA34250009B5F04 /* FahrenheitToCelsius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C83831DA34250009B5F04 /* FahrenheitToCelsius.swift */; };
+		593C83861DA34262009B5F04 /* CelsiusToFahrenheit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C83851DA34262009B5F04 /* CelsiusToFahrenheit.swift */; };
+		593C83881DA34274009B5F04 /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C83871DA34274009B5F04 /* TemperatureConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		593C83741DA34198009B5F04 /* TemperatureConverter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TemperatureConverter; sourceTree = BUILT_PRODUCTS_DIR; };
 		593C83771DA34198009B5F04 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		593C837E1DA341D1009B5F04 /* ConverterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterType.swift; sourceTree = "<group>"; };
+		593C83801DA34225009B5F04 /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		593C83831DA34250009B5F04 /* FahrenheitToCelsius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FahrenheitToCelsius.swift; sourceTree = "<group>"; };
+		593C83851DA34262009B5F04 /* CelsiusToFahrenheit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelsiusToFahrenheit.swift; sourceTree = "<group>"; };
+		593C83871DA34274009B5F04 /* TemperatureConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				593C83771DA34198009B5F04 /* main.swift */,
+				593C837E1DA341D1009B5F04 /* ConverterType.swift */,
+				593C83801DA34225009B5F04 /* Converter.swift */,
+				593C83831DA34250009B5F04 /* FahrenheitToCelsius.swift */,
+				593C83851DA34262009B5F04 /* CelsiusToFahrenheit.swift */,
+				593C83871DA34274009B5F04 /* TemperatureConverter.swift */,
 			);
 			path = TemperatureConverter;
 			sourceTree = "<group>";
@@ -119,6 +134,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				593C837F1DA341D1009B5F04 /* ConverterType.swift in Sources */,
+				593C83841DA34250009B5F04 /* FahrenheitToCelsius.swift in Sources */,
+				593C83861DA34262009B5F04 /* CelsiusToFahrenheit.swift in Sources */,
+				593C83881DA34274009B5F04 /* TemperatureConverter.swift in Sources */,
+				593C83811DA34225009B5F04 /* Converter.swift in Sources */,
 				593C83781DA34198009B5F04 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
